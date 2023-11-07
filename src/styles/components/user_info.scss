@@ -1,0 +1,96 @@
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    color: white;
+    background-color: $ContainerDark;
+    border-radius: 7px;
+
+    @include breakpoint(small) {
+        padding-left: $padding-left;
+        padding-right: $padding-right;
+        width: 90vw;
+        
+      }
+
+}
+
+.profile-info {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+.profile-logo{
+    flex-grow: 1;
+    img{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+}
+.profile-items{
+flex-grow: 2;
+}
+    
+}
+
+.bio {
+    background-color: blue;
+    margin-bottom: 20px;
+   
+}
+
+.stats {
+    
+    background-color: green;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+
+    .repos {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+             
+    }
+    .followers {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .following {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .repos2 {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+             
+    }
+    .followers2 {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .following2 {
+        flex: 0 1 33.33%;
+        display: flex;
+        justify-content: center;
+        
+    }
+ 
+}
+
+
+
+
+.links {
+    background-color: darkblue;
+    margin-bottom: 20px;
+}

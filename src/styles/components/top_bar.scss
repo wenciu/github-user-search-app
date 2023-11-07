@@ -4,11 +4,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  
 
   @include breakpoint(small) {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
     width: 90vw;
-    height: 50px;
+    height: 30px;
   }
+}
+
+.logo {
+  color: #fff;
 }
 
 .theme-light {

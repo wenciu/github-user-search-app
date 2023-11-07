@@ -6,8 +6,8 @@
 
 // SCSS COMPONENTS
 @import "../styles/components/top_bar.scss";
-// @import './components/circle.scss';
-// @import './components/advice.scss';
+@import "../styles/components/search_bar.scss";
+@import "../styles/components/user_info.scss";
 
 body {
   //   background-color: #141d2e;
