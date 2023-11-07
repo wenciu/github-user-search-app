@@ -1,0 +1,20 @@
+#DARK
+
+BG - 141d2e
+Container BG - 1d2b48
+Search BTN - 0077ff
+Search icon - 216ac6
+
+
+#LIGHT
+
+BG - f4f7fe
+Container BG - ffffff
+Small container - f4f7fe
+Search BTN - 0077ff
+Search icon - 526b94
+Dark theme - 45649a
+text - 1e252f
+icons - 3d669a
+
+

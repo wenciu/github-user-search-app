@@ -1,0 +1,16 @@
+.top-bar {
+  background-color: $ContainerDark;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include breakpoint(small) {
+    width: 90vw;
+    height: 50px;
+  }
+}
+
+.theme-light {
+  display: flex;
+}

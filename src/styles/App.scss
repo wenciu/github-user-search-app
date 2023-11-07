@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
-// @import './basics/variables.scss';
-// @import './basics/defaults.scss';
-// @import './basics/mixins.scss';
+@import "../styles/basics/reset.scss";
+@import "../styles/basics/variables.scss";
+@import "../styles/basics/mixins.scss";
 
-// // SCSS COMPONENTS
-// @import './components/container.scss';
+// SCSS COMPONENTS
+@import "../styles/components/top_bar.scss";
 // @import './components/circle.scss';
 // @import './components/advice.scss';
 
-// .bg {
-//   background-color: hsl(218, 23%, 16%);
-//   height: 100vh;
-//   width: 100vw;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+body {
+  //   background-color: #141d2e;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
