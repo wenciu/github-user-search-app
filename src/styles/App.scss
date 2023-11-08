@@ -7,14 +7,20 @@
 // SCSS COMPONENTS
 @import "../styles/components/top_bar.scss";
 @import "../styles/components/search_bar.scss";
-@import "../styles/components/user_info.scss";
+@import "../styles/components/user.scss";
+@import "../styles/components/user_profile.scss";
+@import "../styles/components/user_bio.scss";
+@import "../styles/components/user_stats.scss";
+@import "../styles/components/user_links.scss";
 
 body {
   //   background-color: #141d2e;
   background-color: #fff;
+  font-family: "Space Mono", monospace;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }

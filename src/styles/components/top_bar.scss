@@ -4,9 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 7px;
-  
+  padding: 10px 0px;
 
   @include breakpoint(small) {
     padding-left: $padding-left;
@@ -22,4 +22,12 @@
 
 .theme-light {
   display: flex;
+}
+
+.switch-btn {
+  color: #fff;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 15px;
 }

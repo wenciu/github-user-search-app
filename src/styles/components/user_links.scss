@@ -1,0 +1,44 @@
+.links {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+
+  img {
+    width: 16px;
+    height: 18px;
+  }
+
+  .location {
+    display: flex;
+    margin-bottom: 15px;
+
+    p {
+      padding-left: 10px;
+    }
+  }
+
+  .github {
+    display: flex;
+    margin-bottom: 15px;
+
+    p {
+      padding-left: 10px;
+    }
+  }
+
+  .twitter {
+    display: flex;
+    margin-bottom: 15px;
+
+    p {
+      padding-left: 10px;
+    }
+  }
+
+  .company {
+    display: flex;
+
+    p {
+      padding-left: 10px;
+    }
+  }
+}

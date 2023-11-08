@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SearchIcon from "../images/icon-search.svg"
+import SearchIcon from "../images/icon-search.svg";
 
 function Search_bar() {
   const [input, setInput] = useState("");
@@ -16,16 +16,15 @@ function Search_bar() {
 
   return (
     <div className="search-bar-container">
-      
       <div className="search-bar-items">
-      <img src={SearchIcon} alt="SearchIcon" />
-      <input
-        onChange={getInputValue}
-        type="text"
-        placeholder="Search GitHub username..."
-      />
-      <button className="search-btn">Search</button>
-      {/* <h4>Input text:{input}</h4> */}
+        <img className="SearchIcon" src={SearchIcon} alt="SearchIcon" />
+        <input
+          onChange={getInputValue}
+          type="text"
+          placeholder="Search GitHub username..."
+        />
+        <button className="search-btn">Search</button>
+        {/* <h4>Input text:{input}</h4> */}
       </div>
     </div>
   );

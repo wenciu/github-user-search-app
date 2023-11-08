@@ -1,13 +1,16 @@
 // #GENERAL
 $padding-left: 20px;
-$padding-right: 10px;
-
+$padding-right: 20px;
+$font-700: 700;
+$font-400: 400;
 
 // #DARK
 $BgDark: #141d2e;
-$ContainerDark: #141D2E;   
+$ContainerDark: hsl(222, 41%, 20%);
+// $ContainerDark: #1d2b48;
 $SearchBTN: #0077ff;
 $SearchIconDark: #216ac6;
+$StatsBg: hsl(220, 40%, 13%);
 
 // #LIGHT
 $BgLight: #f4f7fe;
@@ -18,5 +21,26 @@ $DarkTheme: #45649a;
 $TextColor: #1e252f;
 $IconsLight: #3d669a;
 
+// $gap: 20px; 1d2b48
 
-// $gap: 20px;
+// ## Colors
+
+// - Blue: hsl(212, 100%, 50%)
+// - Light blue: hsl(217, 20%, 51%)
+// - Dark blue: hsl(217, 35%, 45%)
+// - Dark blue (darker): hsl(222, 41%, 20%)
+// - Very dark blue: hsl(217, 21%, 21%)
+// - Very dark blue (darker): hsl(220, 40%, 13%)
+// - Very light blue: hsl(227, 100%, 98%)
+// - White: hsl(0, 0%, 100%)
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size: 15px
+
+// ### Font
+
+// - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+// - Weights: 400, 700

@@ -1,14 +1,14 @@
-import Search_bar from "./components/Search_bar";
-import Top_bar from "./components/Top_bar";
-import User_info from "./components/User_info";
+import SearchBar from "./components/SearchBar";
+import TopBar from "./components/TopBar";
+import User from "./components/User";
 import "./styles/App.scss";
 
 function App() {
   return (
     <div>
-      <Top_bar />
-      <Search_bar />
-      <User_info />
+      <TopBar />
+      <SearchBar />
+      <User />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  color: white;
+  background-color: $ContainerDark;
+  border-radius: 7px;
+
+  @include breakpoint(small) {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    width: 90vw;
+  }
+}

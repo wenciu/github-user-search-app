@@ -1,0 +1,19 @@
+Useful resources
+
+React Docs (useEffect) - This helped me for handling side-effects in React.
+React Docs (useContext) - This helped me for creating a dark/light mode toggler.
+styled-components - This helped me for all the necessary CSS styles.
+styled-components' ThemeProvider - This helped me for injecting the theme into all styled components anywhere beneath it.
+stackoverflow(Formatting Dates) - This helped me for formatting date from an ISO date format.
+
+What I learned
+
+Styling React App with styled-components
+Creating a Form component in React
+Creating a controlled component in React
+Handling form submission
+Managing state within a component using UseState Hook
+Handling side-effects using useEffect Hook
+Fetching GitHub Users API using async/await and Fetch API
+Creating a light-dark theme switcher using ContextAPI and styled-components' ThemeProvider
+Formatting date using Internationalization API

@@ -1,0 +1,47 @@
+.stats {
+  background-color: $StatsBg;
+  display: flex;
+  align-self: center;
+  width: 80vw;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border-radius: 7px;
+
+  .repos {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .followers {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .following {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .repos2 {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    font-weight: $font-700;
+  }
+  .followers2 {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    font-weight: $font-700;
+  }
+  .following2 {
+    flex: 0 1 33.33%;
+    display: flex;
+    justify-content: center;
+    font-weight: $font-700;
+  }
+}
