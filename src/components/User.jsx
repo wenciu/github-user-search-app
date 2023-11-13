@@ -1,16 +1,16 @@
 import React from "react";
-import UserInfo from "./UserProfile";
+import UserProfile from "./UserProfile";
 import UserBio from "./UserBio";
 import UserStats from "./UserStats";
 import UserLinks from "./UserLinks";
 
-function User() {
+function User({ data }) {
   return (
     <div className="user-info-container">
-      <UserInfo />
-      <UserBio />
-      <UserStats />
-      <UserLinks />
+      <UserProfile data={data} />
+      <UserBio data={data} />
+      <UserStats data={data} />
+      <UserLinks data={data} />
     </div>
   );
 }

@@ -1,33 +1,43 @@
 import { useState } from "react";
 import SearchIcon from "../images/icon-search.svg";
+import User from "../components/User";
+import axios from "axios";
 
-function Search_bar() {
-  const [input, setInput] = useState("");
+function SearchBar() {
+  const [githubUser, setGithubUser] = useState("");
+  const [userData, setUserData] = useState([]);
 
-  // const handleChange = event => {
-  //   setMessage(event.target.value);
+  const fetchData = async () => {
+    // console.log(githubUser);
 
-  //   console.log('value is:', event.target.value);
-  // };
+    try {
+      const result = await axios(`https://api.github.com/users/${githubUser}`);
 
-  const getInputValue = (event) => {
-    setInput(event.target.value);
+      setUserData(result);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
-    <div className="search-bar-container">
-      <div className="search-bar-items">
-        <img className="SearchIcon" src={SearchIcon} alt="SearchIcon" />
-        <input
-          onChange={getInputValue}
-          type="text"
-          placeholder="Search GitHub username..."
-        />
-        <button className="search-btn">Search</button>
-        {/* <h4>Input text:{input}</h4> */}
+    <>
+      <div className="search-bar-container">
+        <div className="search-bar-items">
+          <img className="SearchIcon" src={SearchIcon} alt="SearchIcon" />
+          <input
+            type="text"
+            placeholder="Search GitHub username..."
+            value={githubUser}
+            onChange={(e) => setGithubUser(e.target.value)}
+          />
+          <button className="search-btn" onClick={fetchData}>
+            Search
+          </button>
+        </div>
       </div>
-    </div>
+      <User data={userData} />
+    </>
   );
 }
 
-export default Search_bar;
+export default SearchBar;

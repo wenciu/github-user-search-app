@@ -11,4 +11,10 @@
     padding-right: $padding-right;
     width: 90vw;
   }
+
+  // @include breakpoint(medium) {
+  //   padding-left: $padding-left-MD;
+  //   padding-right: $padding-right-MD;
+  //   width: 90vw;
+  // }
 }

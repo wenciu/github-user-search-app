@@ -22,6 +22,7 @@
 
 .SearchIcon {
   padding-right: 10px;
+  color: $SearchIconDark;
 }
 
 input::placeholder {
@@ -35,6 +36,7 @@ input {
   border-color: transparent;
   background: transparent;
   color: #fff;
+  outline: none;
 }
 
 .search-btn {

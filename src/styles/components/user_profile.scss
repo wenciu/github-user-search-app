@@ -4,13 +4,13 @@
   align-items: center;
   margin-bottom: 20px;
   margin-top: 25px;
-  padding: 10px 25px;
+  padding: 10px 10px;
 
   .profile-logo {
     flex-grow: 1;
     img {
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       border-radius: 50%;
     }
   }
@@ -19,6 +19,10 @@
 
     .name {
       font-weight: $font-700;
+    }
+
+    .nick {
+      color: $SearchIconDark;
     }
   }
 }
