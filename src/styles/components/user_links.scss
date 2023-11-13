@@ -42,3 +42,33 @@
     }
   }
 }
+
+@include breakpoint(medium) {
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 63vw;
+    align-self: flex-end;
+  }
+
+  .location {
+    flex: 0 1 49%;
+    order: 1;
+  }
+
+  .github {
+    flex: 0 1 20%;
+    order: 4;
+    padding-left: 20px;
+  }
+
+  .twitter {
+    flex: 0 1 30%;
+    order: 2;
+    padding-left: 100px;
+  }
+  .company {
+    flex: 0 1 20%;
+    order: 3;
+  }
+}

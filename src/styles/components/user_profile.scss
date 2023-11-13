@@ -30,14 +30,18 @@
 
 @include breakpoint(medium) {
   .profile-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
     margin-top: 30px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 
     .profile-logo {
       flex-grow: 1;
       img {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
         border-radius: 50%;
       }
     }
@@ -46,17 +50,17 @@
       display: flex;
     }
 
-    .name {
-      font-size: 20px;
-      margin-left: 30px;
-      flex-grow: 1;
+    .name-nick {
+      flex: 1 1 400px;
     }
 
-    .nick {
-      flex-grow: 1;
+    .name {
+      font-size: 20px;
+      padding-bottom: 5px;
     }
+
     .joined {
-      flex-grow: 1;
+      flex: 0 1 300px;
     }
   }
 }

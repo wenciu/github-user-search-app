@@ -1,0 +1,17 @@
+[data-theme="light"] {
+  $Bg: #f4f7fe;
+  $BgContainer: #ffffff;
+  $BgData: #f4f7fe;
+  $SearchIcon: #526b94;
+  $Text1: #1e252f;
+  $Text2: #1e252f;
+}
+
+[data-theme="dark"] {
+  $Bg: #141d2e;
+  $BgContainer: hsl(222, 41%, 20%);
+  $BgData: hsl(220, 40%, 13%);
+  $SearchIcon: #216ac6;
+  $Text1: #ffffff;
+  $Text2: ;
+}

@@ -6,7 +6,8 @@
 @include breakpoint(medium) {
   .bio {
     width: 70%;
-    margin-left: 170px;
     padding: 5px 10px;
+
+    align-self: flex-end;
   }
 }

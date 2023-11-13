@@ -18,8 +18,10 @@ function UserProfile({ data }) {
         <img src={data.data ? data.data.avatar_url : null} alt="avatar_img" />
       </div>
       <div className="profile-items">
-        <div className="name">{data.data ? data.data.name : ""}</div>
-        <div className="nick">@{data.data ? data.data.login : ""}</div>
+        <div className="name-nick">
+          <div className="name">{data.data ? data.data.name : ""}</div>
+          <div className="nick">@{data.data ? data.data.login : ""}</div>
+        </div>
         <div className="joined">
           {data.data ? data.data.created_at : "nothing"}
         </div>

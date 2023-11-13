@@ -1,15 +1,14 @@
 import React, { useState } from "react";
+import "./styles/App.scss";
 import SearchBar from "./components/SearchBar";
 import TopBar from "./components/TopBar";
 
-import "./styles/App.scss";
-
 function App() {
   return (
-    <>
+    <div>
       <TopBar />
       <SearchBar />
-    </>
+    </div>
   );
 }
 

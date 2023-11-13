@@ -16,18 +16,23 @@
   }
 }
 
-.logo {
-  color: #fff;
-}
-
-.theme-light {
+.theme-switch {
   display: flex;
 }
 
+.logo {
+  color: #fff;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .switch-btn {
+  display: flex;
+  align-items: center;
   color: #fff;
   border: none;
   background: transparent;
   cursor: pointer;
-  margin-right: 15px;
 }

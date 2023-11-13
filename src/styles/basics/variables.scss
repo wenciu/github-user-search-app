@@ -21,26 +21,21 @@ $DarkTheme: #45649a;
 $TextColor: #1e252f;
 $IconsLight: #3d669a;
 
-// $gap: 20px; 1d2b48
+// #THEME LIGHT
+[data-theme="light"] {
+  $Bg: #f4f7fe;
+  $BgContainer: #ffffff;
+  $BgData: #f4f7fe;
+  $SearchIcon: #526b94;
+  $Text1: #1e252f;
+}
 
-// ## Colors
+// #THEME DARK
 
-// - Blue: hsl(212, 100%, 50%)
-// - Light blue: hsl(217, 20%, 51%)
-// - Dark blue: hsl(217, 35%, 45%)
-// - Dark blue (darker): hsl(222, 41%, 20%)
-// - Very dark blue: hsl(217, 21%, 21%)
-// - Very dark blue (darker): hsl(220, 40%, 13%)
-// - Very light blue: hsl(227, 100%, 98%)
-// - White: hsl(0, 0%, 100%)
-
-// ## Typography
-
-// ### Body Copy
-
-// - Font size: 15px
-
-// ### Font
-
-// - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-// - Weights: 400, 700
+[data-theme="dark"] {
+  $Bg: #141d2e;
+  $BgContainer: hsl(222, 41%, 20%);
+  $BgData: hsl(220, 40%, 13%);
+  $SearchIcon: #216ac6;
+  $Text1: #ffffff;
+}
