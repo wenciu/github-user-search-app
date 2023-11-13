@@ -14,6 +14,7 @@
       border-radius: 50%;
     }
   }
+
   .profile-items {
     flex-grow: 2;
 
@@ -23,6 +24,39 @@
 
     .nick {
       color: $SearchIconDark;
+    }
+  }
+}
+
+@include breakpoint(medium) {
+  .profile-info {
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    .profile-logo {
+      flex-grow: 1;
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+      }
+    }
+
+    .profile-items {
+      display: flex;
+    }
+
+    .name {
+      font-size: 20px;
+      margin-left: 30px;
+      flex-grow: 1;
+    }
+
+    .nick {
+      flex-grow: 1;
+    }
+    .joined {
+      flex-grow: 1;
     }
   }
 }

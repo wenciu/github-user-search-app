@@ -2,3 +2,11 @@
   margin-bottom: 20px;
   padding: 5px 10px;
 }
+
+@include breakpoint(medium) {
+  .bio {
+    width: 70%;
+    margin-left: 170px;
+    padding: 5px 10px;
+  }
+}

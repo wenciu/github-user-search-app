@@ -12,9 +12,12 @@
     width: 90vw;
   }
 
-  // @include breakpoint(medium) {
-  //   padding-left: $padding-left-MD;
-  //   padding-right: $padding-right-MD;
-  //   width: 90vw;
-  // }
+  @include breakpoint(medium) {
+    // display: flex;
+    // flex-direction: column;
+    // width: 100vw;
+    // color: white;
+    // background-color: $ContainerDark;
+    // border-radius: 7px;
+  }
 }
