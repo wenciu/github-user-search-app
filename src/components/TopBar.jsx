@@ -10,9 +10,23 @@ function TopBar() {
   const switchTheme = () => {
     const isThemeDark = theme === "DARK";
 
+    //   color: "#697c9a",
+
     setTheme(isThemeDark ? "LIGHT" : "DARK");
     setIcon(!icon);
-    console.log(switchTheme);
+  };
+
+  const setDarkMode = () => {
+    document.querySelector("body").setAttribute("data-theme", "dark");
+  };
+
+  const setLightMode = () => {
+    document.querySelector("body").setAttribute("data-theme", "light");
+  };
+
+  const toogleTheme = (e) => {
+    if (e.target.checked) setDarkMode();
+    else setLightMode();
   };
 
   return (

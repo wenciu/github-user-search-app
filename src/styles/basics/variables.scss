@@ -4,38 +4,35 @@ $padding-right: 20px;
 $font-700: 700;
 $font-400: 400;
 
-// #DARK
-$BgDark: #141d2e;
-$ContainerDark: hsl(222, 41%, 20%);
-// $ContainerDark: #1d2b48;
+// #DARK(default)
+$BgRoot: #141d2e;
+$BgContainer: hsl(222, 41%, 20%);
+$BgContainerSmall: hsl(220, 40%, 13%);
 $SearchBTN: #0077ff;
-$SearchIconDark: #216ac6;
-$StatsBg: hsl(220, 40%, 13%);
-
-// #LIGHT
-$BgLight: #f4f7fe;
-$ContainerLight: #ffffff;
-$ContainerSmallLight: #f4f7fe;
-$SearchIconLight: #526b94;
-$DarkTheme: #45649a;
-$TextColor: #1e252f;
-$IconsLight: #3d669a;
+$Text_1: white;
+$Text_2: #f4f7fe;
+$IconDarkBlue: #216ac6;
 
 // #THEME LIGHT
-[data-theme="light"] {
-  $Bg: #f4f7fe;
+.light_theme {
+  $BgRoot: #f4f7fe;
   $BgContainer: #ffffff;
+  $BgContainerSmall: #f4f7fe;
+  $SearchBTN: #0077ff;
   $BgData: #f4f7fe;
-  $SearchIcon: #526b94;
-  $Text1: #1e252f;
+  $Text1: #5a6a88;
+  $Text_2: #303338;
+  $IconDarkBlue: #216ac6;
 }
 
 // #THEME DARK
 
-[data-theme="dark"] {
-  $Bg: #141d2e;
+.dark_theme {
+  $BgRoot: #141d2e;
   $BgContainer: hsl(222, 41%, 20%);
-  $BgData: hsl(220, 40%, 13%);
-  $SearchIcon: #216ac6;
-  $Text1: #ffffff;
+  $BgContainerSmall: hsl(220, 40%, 13%);
+  $SearchBTN: #0077ff;
+  $Text_1: white;
+  $Text_2: #f4f7fe;
+  $IconDarkBlue: #216ac6;
 }

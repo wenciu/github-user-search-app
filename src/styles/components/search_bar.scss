@@ -3,7 +3,7 @@
 }
 
 .search-bar-items {
-  background-color: $ContainerDark;
+  background-color: $BgContainer;
   color: #fff;
   display: flex;
   align-items: center;
@@ -22,7 +22,6 @@
 
 .SearchIcon {
   padding-right: 10px;
-  color: $SearchIconDark;
 }
 
 input::placeholder {

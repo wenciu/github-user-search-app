@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100vw;
   color: white;
-  background-color: $ContainerDark;
+  background-color: $BgContainer;
   border-radius: 7px;
 
   @include breakpoint(small) {

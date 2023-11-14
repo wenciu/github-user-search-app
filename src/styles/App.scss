@@ -1,3 +1,24 @@
+:root {
+  $BgRoot: #f4f7fe;
+  $BgContainer: #ffffff;
+  $BgContainerSmall: #f4f7fe;
+  $SearchBTN: #0077ff;
+  $BgData: #f4f7fe;
+  $Text1: #5a6a88;
+  $Text_2: #303338;
+  $IconDarkBlue: #216ac6;
+}
+
+[data-theme="dark"] {
+  $BgRoot: #141d2e;
+  $BgContainer: hsl(222, 41%, 20%);
+  $BgContainerSmall: hsl(220, 40%, 13%);
+  $SearchBTN: #0077ff;
+  $Text_1: white;
+  $Text_2: #f4f7fe;
+  $IconDarkBlue: #216ac6;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
 // GENERAL
